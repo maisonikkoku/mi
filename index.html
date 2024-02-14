@@ -1,0 +1,200 @@
+<HTML>
+<HEAD>
+
+<META name="keywords" content="Maison, Ikkoku, anime, manga, rumiko, takahashi, kyoko, godai">
+<META name="description" content="Maison Ikkoku Homepage at Berkeley">
+
+<TITLE>Maison Ikkoku Home Page</TITLE>
+
+<Body bgcolor="#ffffff" text="#gggg44"
+        link="#gggg99" vlink="#4f4f4f" alink="#gggggg">
+
+<script language="JavaScript">
+
+<!-- Ignore other browsers
+// highlights images
+
+IMG01 = "./images/on.gif"  //image when mouse is over the link
+IMG02 = "./images/off.gif" //image when mouse isn't over the link
+IMG03 = "./images/on.gif"  
+IMG04 = "./images/off.gif" 
+IMG05 = "./images/on.gif"  
+IMG06 = "./images/off.gif" 
+IMG07 = "./images/on.gif"  
+IMG08 = "./images/off.gif" 
+IMG09 = "./images/on.gif"  
+IMG10 = "./images/off.gif" 
+IMG11 = "./images/on.gif"  
+IMG12 = "./images/off.gif"  
+
+function imgover(imgname){
+     imgname.src = IMG01
+};
+
+function imgout(imgname){
+     imgname.src = IMG02
+};
+
+// randomizer
+
+function makeArray(){
+         this.length = makeArray.arguments.length; 
+             for (var i = 0; i < this.length; i++)
+             this[i + 1] = makeArray.arguments[i]
+};
+
+var wordArray = new makeArray(
+	'I\'m Kyoko Otonashi. I\'ll be the manager of this apartment, from today. <br> Kyoko Otonashi', 
+	'Haruka-chan, welcome to our home. This is the place... where papa and mama met for the very first time... <br> Kyoko Otonashi',
+	'Then it wasn\'t a nude dance? <br> Godai Yusaku',
+	'But whatever you do, don\'t give up. After all, your grandpa managed to win my heart. Persistancy counts. <br> Grandma Yukari',	
+	'The woman I love is... jealous, cries and gets mad a lot... but when she smiles, I feel the best... <br> Godai Yusaku',
+	'She\'s got long hair... so gentle. She\'s two years older than me... but she\'s so adorable. Or how should I put it? <br> Godai Yusaku',
+	'My feelings. I love you. I love you Kyoko-san. Ever since we first met, and now and forever after. <br> Godai Yusaku',
+	'Please, even if by just one day more, live longer than me... Because... I don\'t think I could continue on by myself... <br> Kyoko Otonashi',
+	'Ganbatte kudasai ne! <br> Kyoko Otonashi',
+	'Baw? <br> Souchiro-san'
+);
+
+function randNum (num) {
+         var now = new Date();  
+         var rand = Math.round(num * Math.cos(now.getTime())); 
+         if (rand < 0) rand = - rand; if (rand == 0) rand++; 
+         return rand;                                 
+};
+
+var now = new Date();
+var rand = Math.floor(now.getSeconds() / 12);
+if (rand == 0) {var img = "mirun1.gif"}
+   else if (rand == 1) {var img = "milogo5.gif"}
+   else if (rand == 2) {var img = "mirun1.gif"}
+   else if (rand == 3) {var img = "milogo14.gif"}
+   else if (rand == 4) {var img = "milogo14.gif"}
+document.writeln('<CENTER>');
+document.writeln('<IMG SRC="./images/' + img + '" ALT="Milogo" >');
+document.write ("<CENTER><I>", wordArray[randNum(wordArray.length)],"</I></CENTER>");
+
+// -->
+
+</script>
+</head>
+
+<P><BR>
+
+<TABLE>
+<TR>
+<TD>
+<FONT SIZE=2 FACE=ARIAL> 
+<p>
+<h3>News</h3>
+<p>
+Drop by the <a href="http://pub10.ezboard.com/bikkoku">message board</a> and chat with other Maison Ikkoku fans!
+
+<h3>Introduction</h3>
+Maison Ikkoku is a romantic comedy made in Japan by
+<a href="./html/rumiko.html">
+Rumiko Takahashi</a> and
+is a touching love story revolving around the lives
+of the hapless student Yusaku Godai, the beautiful manager
+of his apartment Kyoko Otonashi, and the crazed tenants of
+Ikkoku-kan.
+<p>
+Originally created as a manga, Maison Ikkoku was made into
+a ninety-six episode long
+<a href="docs/tvintro.txt">
+television series</a> 
+that ran from 1986 to 1988, and has been one of the favorite
+television series in the <a href="docs/raapoll95.txt">
+rec.arts.anime poll</a> the last few years. The 10th year anniversary of the 
+first airing of this series
+passed on March 26th, 1996! Currently,
+<a href="http://www.viz.com/">
+Viz Video</a> has picked up the license for Maison Ikkoku and has
+started releasing the series commerically.
+<p>
+Welcome to the Maison Ikkoku Homepage!  Take a look around - 
+you'll find character information, episode summaries, galleries
+and more.  
+<p>
+</FONT>
+</TD>
+
+<TD ROWSPAN=2>
+<IMG HEIGHT=598 WIDTH=228 SRC="./images/kbroom2.gif">
+</TD>
+
+</TR>
+<TR>
+<TD>
+</FONT><FONT FACE=ARIAL>
+<H3>Information</H3>
+
+<IMG NAME="IMG01" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/characters.html"
+onMouseOver="imgover(IMG01);" onMouseOut="imgout(IMG01)">Characters</A><br> 
+
+<IMG NAME="IMG02" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/episodes.html" 
+onMouseOver="imgover(IMG02);"
+onMouseOut="imgout(IMG02)">Episode Guide</A><br>
+
+<IMG NAME="IMG03" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/guide.html" 
+onMouseOver="imgover(IMG03);"
+onMouseOut="imgout(IMG03)">Guide to Maison Ikkoku</A><br>
+
+<IMG NAME="IMG04" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/time.html" 
+onMouseOver="imgover(IMG04);"
+onMouseOut="imgout(IMG04)">Timeline</A><br>
+
+<IMG NAME="IMG05" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/mailinglist.html" 
+onMouseOver="imgover(IMG05);"
+onMouseOut="imgout(IMG05)">Mailing List</A><br>
+
+<IMG NAME="IMG06" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/multi.html"
+onMouseOver="imgover(IMG06);"
+onMouseOut="imgout(IMG06)">Multimedia</A><br>
+
+<IMG NAME="IMG07" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/picture.html" 
+onMouseOver="imgover(IMG07);"
+onMouseOut="imgout(IMG07)">Image Gallery</A><br>
+
+<IMG NAME="IMG08" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/other.html" 
+onMouseOver="imgover(IMG08);"
+onMouseOut="imgout(IMG08)">Resources</A><br>
+
+<IMG NAME="IMG10" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/feedback.html" 
+onMouseOver="imgover(IMG10);"
+onMouseOut="imgout(IMG10)">Feedback and Credits</A><br>
+
+<IMG NAME="IMG12" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="http://pub10.ezboard.com/bikkoku"
+onMouseOver="imgover(IMG12);"
+onMouseOut="imgout(IMG12)">Message Board</A><br>
+
+<IMG NAME="IMG11" SRC="./images/off.gif" WIDTH=10 HEIGHT=10 BORDER=0> <A
+HREF="./html/addguest.html" 
+onMouseOver="imgover(IMG11);"
+onMouseOut="imgout(IMG11)">Guestbook</A><br>
+
+
+</FONT>
+</TD>
+
+</TR></TABLE>
+
+</CENTER>
+<P>
+<FONT SIZE=2>
+<a href="./html/update.html">What's new?</a>
+
+</FONT>
+
+</BODY>
+</HTML>
